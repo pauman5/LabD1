@@ -1,0 +1,74 @@
+html,
+body {
+    padding: 0,
+    margin: 0;
+    background-color: #f2f4fc;
+    font-family: 'Roboto', sans-serif;
+    color: #292e47;
+}
+
+.container-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle-logo {
+    width: 4em;
+}
+
+.nav-menu {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin: 1em;
+    color: #6b708d;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav-menu li:hover {
+    margin: 1em;
+    color: #072ac8;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav-menu-button {
+    padding: 15px 30px;
+    background-color: #072ac8;
+    font-size: 17px;
+    color: white;
+    border: 0;
+}
+
+.nav-menu-button {
+    padding: 15px 30px;
+    background-color: #292e47;
+    font-size: 17px;
+    color: white;
+    border: 0;
+}
+
+
+
+h1{
+    color: #292e47;
+    font-size: 60px;
+    line-height: 130%;
+}
+
+.container-empower {
+    width: 50%;: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
