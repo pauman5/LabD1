@@ -8,6 +8,8 @@ body {
 }
 
 .container-nav {
+    width: 97%;
+    padding: 0 1em 0 1em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,6 +21,7 @@ body {
 }
 
 .nav-menu {
+    margin-top: 1.5em;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -41,7 +44,7 @@ body {
     font-weight: 500;
 }
 
-.nav-menu-button {
+.button1 {
     padding: 15px 30px;
     background-color: #072ac8;
     font-size: 17px;
@@ -49,7 +52,7 @@ body {
     border: 0;
 }
 
-.nav-menu-button {
+.button1:hover {
     padding: 15px 30px;
     background-color: #292e47;
     font-size: 17px;
@@ -57,18 +60,204 @@ body {
     border: 0;
 }
 
-
-
-h1{
+#empower h1{
     color: #292e47;
     font-size: 60px;
     line-height: 130%;
 }
 
+#empower p {
+    color: #6b708d;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    font-size: 20px;
+    line-height: 40px;
+}
+
 .container-empower {
-    width: 50%;: flex;
+    position:relative;
+    width: 47%;
+}
+
+.container-card {
+    position: absolute;
+    top: 0%;
+    left: -19%;
+}
+
+.container-card img {
+    width: 375px;
+}
+
+.container-okey {
+    position: absolute;
+    bottom: -22%;
+    right: -25%;
+}
+
+.container-okey img {
+    width: 375px;
+}
+
+.container-empower > img {
+    width: 560px;
+}
+
+.container-empower a {
+    color: #6b708d;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 1em;
+}
+
+.empower-top {
+    display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
+    width-max: 1300px;
 }
+
+.empower-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5em 2em;
+    margin: 3rem 0 5em 0;
+}
+
+.empower-bottom img {
+    height: 32px;
+}
+
+h3 {
+    color: #292e47;
+    font-size: 40px;
+    margin: 3rem 0 3rem 2rem;
+}
+
+#recent-projects > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-project {
+    margin: 10px;
+    background-color: white;
+}
+
+.container-project > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 1.5em;
+}
+
+.container-project > div > h4 {
+    margin: 30px 30px 20px 0;
+    color: #292e47;
+    font-size: 24px;
+    line-height: 115%;
+    font-weight: 500;
+}
+
+.container-project > div > p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.container-project > div > a {
+    margin: 30px 30px 30px 0;
+    color: #072ac8;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.project-img {
+    width: 100%;
+    height: 240px;
+    -o-object-fit: 
+}
+
+#hear {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #292e47;
+    margin: 1.5rem;
+    padding: 1.5rem 6em;
+}
+
+.central  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lateral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.emojis {
+    height: 150px;
+    width: 150px;
+}
+
+.hear-name {
+    color: #a2d6f9;
+    font-size: 17px;
+    margin:0;
+    padding:0;
+}
+
+.hear-web {
+    color: #ecf7ff;
+    font-size: 13px;
+    margin:0;
+    padding:0;
+}
+
+
+.h3-central { 
+    color: white; 
+    font-size: 40px; 
+    text-align:center"
+}
+
+.h4-central { 
+    color: #ffc600;
+    font-size: 24px; 
+    text-align: center;
+    padding: 0 3em;
+}
+
+.perfil-central {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.perfil-central div {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 1em;
+}
+
 
 
